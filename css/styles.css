@@ -119,7 +119,7 @@ strong {
 
 .search-bar input {
   padding: 8px;
-  width: 40%;
+  width: 100%;
 }
 
 input:focus {
@@ -134,9 +134,9 @@ input:focus {
   justify-content: space-between;
   background-color: #FFD700;
   color: #000;
-  height: 50px;
+  height: 65px;
   width: 98%;
-  margin: 10px;
+  margin: 0 auto;
   border-radius: 12px;
 }
 
@@ -160,7 +160,6 @@ input:focus {
 /* ---------- Line Chart Navigation ---------- */
 
 .traffic-nav {
-  display: flex;
   justify-content: space-between;
   width: 100%;
   height: 70px;
@@ -224,7 +223,7 @@ h3 {
 }
 
 .social-boxes h4 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   color: #5c9e91;
   margin: 0;
@@ -245,13 +244,21 @@ h3 {
   text-align: center;
   align-items: center;
   margin: 20px 0 20px 0;
+  margin-right: 10px;
+}
+
+.social-facebook {
+  width: 75px;
+}
+
+.socal-google {
+  width: 75px;
 }
 
 .twitter,
 .facebook,
 .google {
   display: flex;
-  padding: 10px 62px;
   border-bottom: 1px solid lightgrey;
   margin: 10px;
   align-items: center;
@@ -261,7 +268,6 @@ h3 {
 .social-info {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
 }
 
 /* ---------- Members ---------- */
@@ -293,7 +299,19 @@ h3 {
 }
 
 .member-date {
-  margin-left: auto;
+  margin-left: -77px;
+}
+
+.leo {
+  margin-left: -66px;
+}
+
+.thomas {
+  margin-left: -63px;
+}
+
+.griffin {
+  margin-left: -85px;
 }
 
 /* ---------- Activity ---------- */
